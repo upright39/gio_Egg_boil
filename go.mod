@@ -15,6 +15,7 @@ require (
 	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
 	golang.org/x/text v0.3.7 // indirect
 )
+
 /////////////////////////////////
 //package main
 
@@ -85,8 +86,7 @@ require (
 
 // 	//listen for events in the window
 // 	for e := range w.Events() {
-	
-		
+
 // 		//detect what type of event
 // 		switch e := e.(type) {
 
@@ -161,22 +161,22 @@ require (
 // 	return nil
 // }
 
-			//image viewer rigid
-					// layout.Rigid(
-					// 	func(gtx C) D {
-					// 		circle := clip.Ellipse{
-					// 			// Hard coding the x coordinate. Try resizing the window
-					// 			// Min: image.Pt(80, 0),
-					// 			// Max: image.Pt(320, 240),
-					// 			// Soft coding the x coordinate. Try resizing the window
-					// 			Min: image.Pt(gtx.Constraints.Max.X/2-120, 60),
-					// 			Max: image.Pt(gtx.Constraints.Max.X/2+100, 300),
-					// 		}.Op(gtx.Ops)
+//image viewer rigid
+// layout.Rigid(
+// 	func(gtx C) D {
+// 		circle := clip.Ellipse{
+// 			// Hard coding the x coordinate. Try resizing the window
+// 			// Min: image.Pt(80, 0),
+// 			// Max: image.Pt(320, 240),
+// 			// Soft coding the x coordinate. Try resizing the window
+// 			Min: image.Pt(gtx.Constraints.Max.X/2-120, 60),
+// 			Max: image.Pt(gtx.Constraints.Max.X/2+100, 300),
+// 		}.Op(gtx.Ops)
 
-					// 		color := color.NRGBA{R: 200, A: 255}
+// 		color := color.NRGBA{R: 200, A: 255}
 
-					// 		paint.FillShape(gtx.Ops, color, circle)
-					// 		d := image.Point{Y: 350}
-					// 		return layout.Dimensions{Size: d}
-					// 	},
-					// ),
+// 		paint.FillShape(gtx.Ops, color, circle)
+// 		d := image.Point{Y: 350}
+// 		return layout.Dimensions{Size: d}
+// 	},
+// ),
